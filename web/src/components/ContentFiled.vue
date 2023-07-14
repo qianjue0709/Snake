@@ -1,0 +1,17 @@
+<template>
+  <div class="container content-filed">
+    <div class="card">
+      <div class="card-body">
+        <slot></slot>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script setup></script>
+
+<style scoped>
+div.content-filed {
+  margin-top: 20px;
+}
+</style>
